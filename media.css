@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/*Todas as demais mídidas*/
+/*-----------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768 até 992px
+Desktop:992px até 1200px
+Gandes telas: acima de 1200px
+-------------------------------
+dados retirados em 2020
+*/
+@media screen and (min-width:600px) and (max-width:992px) {
+    body{
+        background-image: url(back-tablet.jpg);
+
+    }  
+    img#phone{
+        display: none;
+        }
+        img#table{
+        display: block;
+        }
+        img#print{
+            display: none;
+        }
+        img#pc{
+            display: none;
+        }
+        img#tv{
+            display: none;
+        }
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+    body{
+        background-image: url(back-pc.jpg);
+    }
+    img#phone{
+        display: none;
+        }
+        img#table{
+        display: none;
+        }
+        img#print{
+            display: none;
+        }
+        img#pc{
+            display: block;
+        }
+        img#tv{
+            display: none;
+        }
+
+}
+@media screen and (min-width:1200px){
+    body{
+        background-image: url(back-tv.jpg);
+    }
+    img#phone{
+        display: none;
+    
+        }
+        img#table{
+        display: none;
+        }
+        img#print{
+            display: none;
+        }
+        img#pc{
+            display: none;
+        }
+        img#tv{
+            display: block;
+        }
+    
+}
