@@ -11,7 +11,7 @@ dados retirados em 2020
 */
 @media screen and (min-width:600px) and (max-width:992px) {
     body{
-        background-image: url(back-tablet.jpg);
+        background-image: url(img/back-tablet.jpg);
 
     }  
     img#phone{
@@ -32,7 +32,7 @@ dados retirados em 2020
 }
 @media screen and (min-width:992px) and (max-width:1200px){
     body{
-        background-image: url(back-pc.jpg);
+        background-image: url(img/back-pc.jpg);
     }
     img#phone{
         display: none;
@@ -53,7 +53,7 @@ dados retirados em 2020
 }
 @media screen and (min-width:1200px){
     body{
-        background-image: url(back-tv.jpg);
+        background-image: url(img/back-tv.jpg);
     }
     img#phone{
         display: none;

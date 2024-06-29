@@ -10,7 +10,7 @@ html{
  
 }
 body{
-    background: black url(back-phone.jpg ) no-repeat center ;
+    background: black url(img/back-phone.jpg) no-repeat center ;
     background-size: cover;
 }
 main{
