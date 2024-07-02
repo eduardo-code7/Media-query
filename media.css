@@ -9,7 +9,7 @@ Gandes telas: acima de 1200px
 -------------------------------
 dados retirados em 2020
 */
-@media screen and (min-width:600px) and (max-width:992px) {
+@media screen and (min-width:600px) and (max-width:992px) { /*De 600 ate 992 vai aparecer isso*/
     body{
         background-image: url(img/back-tablet.jpg);
 
